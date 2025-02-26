@@ -1,0 +1,69 @@
+.styles{
+    color:#AA60C8;
+    background-color:#D69ADE;
+}
+.login{
+    background-image: url('../img/space1.jpg') ;
+    background-color: #fff; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color:wheat;
+}
+.kidcalc{   
+    background-image: url('../img/space2.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+    color:purple;
+    border: 1px solid black;
+    width: 600px;
+    padding: 6px;
+    margin:5px;
+    width: 500px;
+}
+h1{
+    color:purple;
+}
+.button{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.ballons{
+    display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butt{
+    background-color: black;
+    color: aliceblue;
+}
+@media(max-width:780px){ /* for mobiles*/
+    .kidcalc{
+        width: 500px;
+    }
+ }
+ @media (min-width:781px) and (max-width:1240px){/* for tablets*/
+    section {
+        display: flex;
+       justify-content: space-between;
+       padding: 20px;
+    }
+    .kidcalc{
+        width: 800px;
+    }
+}
+@media (min-width:1241px){/* for desktop*/
+    section {
+        display: flex;
+       justify-content: space-between;
+       padding: 20px;
+    }
+    .kidcalc{
+        width: 900px;
+    }
+}

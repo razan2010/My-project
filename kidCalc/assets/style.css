@@ -1,0 +1,58 @@
+@import url('car.css');
+@import url('dinasour.css');
+@import url('space.css');
+.kidcalc{
+    border: 1px solid black;
+    padding: 6px;
+    margin:5px;
+}
+.ballons{
+    display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+}
+button{
+    color: aliceblue;
+    background-color:#7886C7;
+    width:auto;
+}
+body{
+    color: blue;
+}
+.butt{
+    background-color: black;
+    color: aliceblue;
+}
+@media(max-width:780px){ /* for mobiles*/
+    .kidcalc{
+        width: 500px;
+    }
+ }
+ @media (min-width:781px) and (max-width:1240px){ /* for tablets*/
+    section {
+        display: flex;
+       justify-content: space-between;
+       padding: 20px;
+    }
+    .kidcalc{
+        width: 800px;
+    }
+}
+@media (min-width:1241px){/* for desktop*/
+    section {
+        display: flex;
+       justify-content: space-between;
+       padding: 20px;
+    }
+    .kidcalc{
+        width: 900px;
+    }
+}
